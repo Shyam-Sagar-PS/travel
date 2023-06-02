@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Instrument+Sans:wght@500&family=Kanit:wght@300&family=PT+Serif:ital@1&family=Playfair+Display:ital,wght@0,500;1,500&family=Playfair:ital,wght@1,300&family=Poppins:wght@200&family=Roboto+Condensed&family=Varela+Round&display=swap');
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar{
+    position:static;
+}
+.navbar .nav-link{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    
+
+}
+.home{
+    background: url('./images/pexels-francesco-ungaro-2325446.jpg');
+    background-size: cover;
+    height: 120vh;
+    position: relative;
+   
+    
+
+}
+#home h1{
+    margin-top:18%;
+    
+  
+    
+}
+
+.home h2{
+
+    color: white;
+}
+
+
+.changetext::after{
+
+    /* font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: bold; */
+    font-weight: bold;
+    content: '';
+    color:rgb(183, 15, 9);
+    animation: changelettext 5s infinite linear;
+}
+
+@keyframes changelettext{
+    0%{content: "go";}
+    30%{content: "stay";}
+    60%{content: "Enjoy";}
+    100%{content: "Explore";}
+    
+}
+
+
+.change::after{
+
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: 600;
+    content: '';
+    color:rgb(22, 21, 20);
+    animation: changelet 5s infinite linear;
+}
+
+@keyframes changelet{
+    0%{content: "Manali";}
+    20%{content: "New-zealand";}
+    50%{content: "Rajasthan";}
+    100%{content: "Maldives";}
+    
+}
+
+
+
+#home input{
+    border-radius: 10px;
+    opacity: 0.7;
+    /* margin-left: 75%; */
+
+
+}
+#home a{
+    /* margin-left: -30%; */
+    margin-top: -0.8%;
+    
+    border-radius: 15px;
+    font-size: 13px;
+}
+.about{
+    margin-top: 5%;
+    padding-top: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.about h3{
+    margin-top: 15%;
+}
+
+.about p{
+
+    font-family: 'Kanit', sans-serif;
+  
+
+    margin-top: 5%;
+}
+
+
+/* .about .card .img{
+
+    width: 100%;
+   
+   
+
+
+} */
+
+/* .about .card  {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 253, 253);
+    animation-name: example;
+    animation-duration: 5s infinite linear;
+  }
+  
+  @keyframes example {
+    0%   {background-color: rgb(233, 81, 81);}
+    25%  {background-color: rgb(162, 162, 28);}
+    50%  {background-color: rgb(81, 81, 145);}
+    100% {background-color: rgb(52, 108, 52);}
+} */
+  
+.about .card{
+    width: 100%;
+    height: 100%;
+}
+
+.about .card-img-top {
+    width: 100%;
+    height: 16vw;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.about .card .img-fluid{
+    height: 100%;
+}
+
+
+/* @keyframes fading {
+    0% {opacity:1;}
+    25% {opacity:.75;}
+    50% {opacity:.5;}
+    100% {opacity:0;}
+  }
+
+  #fading img.top {
+    -webkit-animation-name: fading;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-direction: alternate;
+    }
+     */
+
+
+
+
+
+
+.trips{
+    margin-top: 13%;
+    padding-top: 10%;
+}
+
+.trips h2{
+   font-size: 80px;
+}
+
+.trips .card {
+    margin-top: 10%;
+    width: 100%;
+    height: 100%;
+}
+
+.trips .card .img-fluid{
+
+    height: 100%;
+}
+
+.trips .card .card-img-overlay{
+
+
+    margin-bottom: 0;
+
+
+}
+
+.gallery{
+    padding-top: 10%;
+    margin-top: 10%;
+    background-color: rgb(56, 183, 157);
+  
+
+}
+
+.gallery h2{
+    font-size: 80px;
+    font-family: 'PT Serif', serif;
+}
+.gallery .row .img-fluid{
+
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.connect{
+    margin-top: 10%;
+    padding-top: 5%;
+}
+.connect h2{
+    font-size: 80px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+.connect .row input{
+    border-radius: 10px;
+    height: 10%;
+   
+}
+
+.connect{
+    background: url('./images/wallpaperflare.com_wallpaper.jpg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.connect textarea{
+    border-radius: 10px;
+
+}
+
+/* .connect form{
+    background-color: rgb(62, 59, 59);
+    width: 100%;
+} */
+.contact .container{
+    background-color: rgb(237, 154, 29);
+}
+
+.contact h2{
+    font-size: 50px;
+}
+
+.contact .col-lg-12{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.contact .icon{
+    width: 50px;
+    height: 50px;
+
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:35px;
+    margin: 10px 10px;
+
+}
+
+.icon:hover{
+
+    background-color: rgb(220, 89, 7); 
+   color: white;
+   background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
+.icon i{
+    color: black;
+}
+
+footer{
+    text-align: center;
+    margin-top: 2%;
+
+    font-weight: bold;
+}
+
+.arrow i{
+    color: white;
+    float: right;
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(34, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 32px;
+    
+}
+
+.arrow i:hover{
+    background-color: rgb(48, 46, 45); 
+    color: white;
+
+}
+html{
+    scroll-behavior: smooth;
+}
